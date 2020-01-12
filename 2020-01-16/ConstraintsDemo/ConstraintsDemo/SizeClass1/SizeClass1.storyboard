@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pYO-AB-WRv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Size Class1 View Controller-->
+        <scene sceneID="BPu-h6-Jg8">
+            <objects>
+                <viewController id="pYO-AB-WRv" customClass="SizeClass1ViewController" customModule="SizeClass1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EaK-rI-WD2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHX-Zh-udd">
+                                <rect key="frame" x="82" y="194" width="250" height="150"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="XDL-0g-VmB"/>
+                                    <constraint firstAttribute="height" constant="150" id="yKs-7h-yA1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBV-tY-evV">
+                                <rect key="frame" x="82" y="384" width="250" height="150"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="LZ1-JV-6xW"/>
+                                    <constraint firstAttribute="height" constant="150" id="iaO-OP-1sv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tBV-tY-evV" firstAttribute="top" secondItem="NHX-Zh-udd" secondAttribute="bottom" constant="40" id="3TY-5M-SGC"/>
+                            <constraint firstItem="tBV-tY-evV" firstAttribute="centerX" secondItem="EaK-rI-WD2" secondAttribute="centerX" id="3kT-kY-Y7K"/>
+                            <constraint firstItem="NHX-Zh-udd" firstAttribute="top" secondItem="voN-85-6az" secondAttribute="top" constant="150" id="CIu-g8-fNy"/>
+                            <constraint firstItem="NHX-Zh-udd" firstAttribute="centerX" secondItem="EaK-rI-WD2" secondAttribute="centerX" id="m7M-3L-t4q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="voN-85-6az"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRL-Iy-qVG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="128"/>
+        </scene>
+    </scenes>
+</document>

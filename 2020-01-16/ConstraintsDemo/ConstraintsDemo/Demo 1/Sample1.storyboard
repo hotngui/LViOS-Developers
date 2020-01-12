@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z8F-ZN-xvB">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sample 1-->
+        <scene sceneID="o4u-Er-Ez3">
+            <objects>
+                <viewController id="z8F-ZN-xvB" userLabel="Sample 1" customClass="Sample1ViewControlle" customModule="ConstraintsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="EIi-hs-gSd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="This is just a simple screen to demonstrate some basic contraints." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgt-lN-NIO">
+                                <rect key="frame" x="16" y="44" width="343" height="54.333333333333343"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Corvette Stingray 2020" translatesAutoresizingMaskIntoConstraints="NO" id="30n-Zw-e28">
+                                <rect key="frame" x="0.0" y="108.33333333333331" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="30n-Zw-e28" secondAttribute="height" multiplier="3:2" id="JK6-K9-Sml"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Jfr-5L-xSw">
+                                <rect key="frame" x="136.66666666666666" y="358.33333333333331" width="102" height="75"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="0nc-aD-K6z">
+                                        <rect key="frame" x="0.0" y="0.0" width="102" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFm-6B-uL0">
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wbm-gd-E9D">
+                                                <rect key="frame" x="53" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="WJp-0a-cjy">
+                                        <rect key="frame" x="0.0" y="44" width="102" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpY-6e-qrx">
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsc-nF-0yP">
+                                                <rect key="frame" x="53" y="0.0" width="51" height="31"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jfr-5L-xSw" firstAttribute="centerX" secondItem="EIi-hs-gSd" secondAttribute="centerX" id="1su-VO-9QR"/>
+                            <constraint firstItem="Jfr-5L-xSw" firstAttribute="top" secondItem="30n-Zw-e28" secondAttribute="bottom" id="K1w-5r-c80"/>
+                            <constraint firstItem="rgt-lN-NIO" firstAttribute="leading" secondItem="EIi-hs-gSd" secondAttribute="leadingMargin" id="ODp-36-ATp"/>
+                            <constraint firstItem="30n-Zw-e28" firstAttribute="top" secondItem="rgt-lN-NIO" secondAttribute="bottom" constant="10" id="UbF-mz-ESs"/>
+                            <constraint firstItem="30n-Zw-e28" firstAttribute="leading" secondItem="EIi-hs-gSd" secondAttribute="leading" id="ba2-Ok-Uh9"/>
+                            <constraint firstAttribute="trailing" secondItem="30n-Zw-e28" secondAttribute="trailing" id="e8n-5n-vos"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rgt-lN-NIO" secondAttribute="trailing" id="nUs-eq-eIc"/>
+                            <constraint firstItem="rgt-lN-NIO" firstAttribute="top" secondItem="E6W-XK-cWr" secondAttribute="top" id="unx-Bg-tep"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E6W-XK-cWr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAX-0L-3Zx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-171.01449275362319" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Corvette Stingray 2020" width="623.5" height="326.5"/>
+    </resources>
+</document>

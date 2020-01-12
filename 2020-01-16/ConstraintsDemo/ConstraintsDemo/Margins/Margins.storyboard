@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jfQ-sP-vHx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Margins View Controller-->
+        <scene sceneID="3Cf-VH-0on">
+            <objects>
+                <viewController id="jfQ-sP-vHx" customClass="MarginsViewController" customModule="ConstraintsDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ain-vm-fUO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dS5-J0-s6J">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="dS5-J0-s6J" secondAttribute="bottom" id="4Ds-pa-E7A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dS5-J0-s6J" secondAttribute="trailing" id="G1i-3P-euu"/>
+                            <constraint firstItem="dS5-J0-s6J" firstAttribute="top" secondItem="ain-vm-fUO" secondAttribute="topMargin" id="Jn6-9n-I4Y"/>
+                            <constraint firstItem="dS5-J0-s6J" firstAttribute="leading" secondItem="ain-vm-fUO" secondAttribute="leadingMargin" id="SYQ-VH-Qe7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x2b-6P-qMi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ygt-Wy-bW6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-997" y="126"/>
+        </scene>
+    </scenes>
+</document>
