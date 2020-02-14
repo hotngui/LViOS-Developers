@@ -7,7 +7,7 @@ import Foundation
 import CoreData
 
 class DataStore {
-    let container = NSPersistentCloudKitContainer(name: "CoreDataSample")
+    let container = NSPersistentContainer(name: "CoreDataSample")
 
     init() {
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
