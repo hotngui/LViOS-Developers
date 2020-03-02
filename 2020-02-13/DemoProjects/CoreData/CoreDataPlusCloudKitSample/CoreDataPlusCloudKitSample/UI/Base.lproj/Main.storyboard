@@ -3,19 +3,20 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Restaurants-->
         <scene sceneID="z5a-a9-def">
             <objects>
-                <tableViewController storyboardIdentifier="ViewController" id="g77-wH-XfX" customClass="ViewController" customModule="CoreDataSample" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ViewController" id="g77-wH-XfX" customClass="ViewController" customModule="CoreDataPlusCloudKitSample" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="SPX-vE-itR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantCell" rowHeight="98" id="Xkt-w3-lPV" customClass="RestaurantCell" customModule="CoreDataSample" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantCell" rowHeight="98" id="Xkt-w3-lPV" customClass="RestaurantCell" customModule="CoreDataPlusCloudKitSample" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="98"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xkt-w3-lPV" id="qnr-am-qSV">
@@ -50,6 +51,7 @@
                                 <connections>
                                     <outlet property="addressLabel" destination="n0k-N1-yn1" id="oKf-Zm-vcK"/>
                                     <outlet property="nameLabel" destination="GDR-TM-BkF" id="Gp3-wW-NbE"/>
+                                    <segue destination="gZJ-vE-5UY" kind="presentation" id="WS7-do-D9t"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -70,6 +72,22 @@
             </objects>
             <point key="canvasLocation" x="1010.144927536232" y="86.383928571428569"/>
         </scene>
+        <!--Test Modal-->
+        <scene sceneID="Gz0-sZ-XJp">
+            <objects>
+                <viewController id="FOH-4R-a5K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XfW-7Y-V5R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7BV-f9-rT0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Test Modal" id="v73-0L-NOe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n59-HM-oXO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2622" y="86"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="KkG-KU-wQo">
             <objects>
@@ -86,7 +104,25 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oEb-gD-u0e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100.00000000000001" y="86.383928571428569"/>
+            <point key="canvasLocation" x="275" y="86"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VCD-9Q-V33">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gZJ-vE-5UY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UnV-76-bUM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FOH-4R-a5K" kind="relationship" relationship="rootViewController" id="nJE-q6-iNl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VuY-6J-l2f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1968" y="86"/>
         </scene>
     </scenes>
 </document>
