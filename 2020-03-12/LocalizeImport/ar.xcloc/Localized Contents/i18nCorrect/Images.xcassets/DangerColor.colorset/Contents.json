@@ -1,0 +1,24 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "localizable" : true
+  },
+  "colors" : [
+    {
+      "idiom" : "iphone",
+      "locale" : "ar"
+        "color" : {
+          "color-space" : "srgb",
+          "components" : {
+            "red" : "0.000",
+            "alpha" : "1.000",
+            "blue" : "0.000",
+            "green" : "1.000"
+          }
+        }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "united-states-of-america-flag-icon-64_de.png",
+      "locale" : "de"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "localizable" : true
+  }
+}

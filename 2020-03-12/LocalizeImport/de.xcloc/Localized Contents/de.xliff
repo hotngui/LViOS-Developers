@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="i18nCorrect/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3.1" build-num="11C504"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>i18nCorrect</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="i18nCorrect/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3.1" build-num="11C504"/>
+    </header>
+    <body>
+      <trans-unit id="Hello:" xml:space="preserve">
+        <source>Hello:</source>
+        <target>Hallo</target>
+        <note>a prompt</note>
+      </trans-unit>
+      <trans-unit id="Please tap the button" xml:space="preserve">
+        <source>Please tap the button</source>
+        <target>Bitte tippen Sie auf die Schaltfläche</target>
+        <note>Make sure the translator knows this is not the same string as the one above it.
+   Put a useful comment here.</note>
+      </trans-unit>
+      <trans-unit id="Two" xml:space="preserve">
+        <source>Two</source>
+        <target>Zwei</target>
+        <note>The number 2</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
