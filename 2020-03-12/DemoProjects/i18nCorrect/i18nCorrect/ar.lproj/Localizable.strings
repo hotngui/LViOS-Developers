@@ -1,0 +1,10 @@
+/* a prompt */
+"Hello:" = "مرحبا";
+
+/* Make sure the translator knows this is not the same string as the one above it.
+   Put a useful comment here. */
+"Please tap the button" = "يرجى الضغط على الزر";
+
+/* The number 2  */
+"Two" = "اثنان";
+
