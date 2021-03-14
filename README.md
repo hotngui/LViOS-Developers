@@ -2,6 +2,9 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2021-03-16 (Demystified: WidgetKit)
+A primer on Apple's new Widget feature. Includes two sample apps that demonstrate some of the major capabilities of the feature.
+
 ##### 2020-03-12 (Demystified: Localization and Internationalization)
 A primer on how to setup your app to support multiple languages, and how to extract/import translations into your app. Includes sample code.
 
@@ -9,5 +12,5 @@ A primer on how to setup your app to support multiple languages, and how to extr
 A primer into the various methods and technologies available to store data for your app. Includes sample code for parsing JSON data, for using CoreData locally, and for using CoreData with CloudKit to sync to private database in iCloud.
 
 ##### 2020-01-16 (Demystified: Constraints and Size Classes)
-A primer into exactly what layout constraints and size classes are and how to user them effecively.
+A primer into exactly what layout constraints and size classes are and how to user them effecively.a
 
