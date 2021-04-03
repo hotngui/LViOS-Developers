@@ -244,8 +244,8 @@ struct WeatherWidget_Previews: PreviewProvider {
     static var previews: some View {
         WeatherWidgetEntryView(entry: AnotherEntry(date: Date(), configuration: ConfigurationIntent(), viewModel: createDummy()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
-        WeatherWidgetEntryView(entry: AnotherEntry(date: Date(), configuration: ConfigurationIntent(), viewModel: createDummy()))
-            .previewContext(WidgetPreviewContext(family: .systemMedium))
+//        WeatherWidgetEntryView(entry: AnotherEntry(date: Date(), configuration: ConfigurationIntent(), viewModel: createDummy()))
+//            .previewContext(WidgetPreviewContext(family: .systemMedium))
     }
 }
 
