@@ -1,0 +1,70 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "firstName": "George",
+            "lastName": "Rose",
+            "streetAddress": "902 Pomeroy Ave",
+            "city": "Santa Clara",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "95051",
+            "telephone": "408-555-1212"
+        },
+        {
+            "id": 2,
+            "firstName": "Joey",
+            "lastName": "Jarosz",
+            "streetAddress": "902 Pomeroy Ave",
+            "city": "Santa Clara",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "95051",
+            "telephone": "408-555-1212"
+        },
+        {
+            "id": 3,
+            "firstName": "Ralph",
+            "lastName": "Rose",
+            "streetAddress": "902 Pomeroy Ave",
+            "city": "Santa Clara",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "95051",
+            "telephone": "408-555-1212"
+        },
+        {
+            "id": 4,
+            "firstName": "Ralph",
+            "lastName": "Jarosz",
+            "streetAddress": "666 Mockingbird Lane",
+            "city": "Sunnyvale",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "94068",
+            "telephone": "408-555-1212"
+        },
+        {
+            "id": 5,
+            "firstName": "Henry",
+            "lastName": "Ireland",
+            "streetAddress": "666 Mockingbird Lane",
+            "city": "Sunnyvale",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "94068",
+            "telephone": "408-555-1212"
+        },
+        {
+            "id": 6,
+            "firstName": "Karen",
+            "lastName": "Ireland",
+            "streetAddress": "666 Mockingbird Lane",
+            "city": "Sunnyvale",
+            "stateShort": "CA",
+            "stateLong": "California",
+            "zipCode": "94068",
+            "telephone": "408-555-1212"
+        }
+    ]
+}

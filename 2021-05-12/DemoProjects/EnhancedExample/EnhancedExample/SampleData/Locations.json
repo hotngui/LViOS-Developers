@@ -1,0 +1,60 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Mandalay Bay",
+            "address": "3950 Las Vegas Blvd S, Las Vegas, NV 89119",
+            "type": "casino",
+            "latitude": 36.092192860958505,
+            "longitude": -115.17495333003923
+        },
+        {
+            "id": 2,
+            "name": "Treasue Island",
+            "address": "3300 Las Vegas Blvd S, Las Vegas, NV 89109",
+            "type": "casino",
+            "latitude": 36.12501191803239,
+            "longitude": -115.17203359353996
+        },
+        {
+            "id": 3,
+            "name": "ARIA Resort & Casino",
+            "address": "3730 S Las Vegas Blvd, Las Vegas, NV 89158",
+            "type": "casino",
+            "latitude": 36.10773551168256,
+            "longitude": -115.17651722703184
+        },
+        {
+            "id": 4,
+            "name": "Golden Nugget",
+            "address": "129 E Fremont St, Las Vegas, NV 89101",
+            "type": "casino",
+            "latitude": 36.17024638402286,
+            "longitude": -115.14498443003828
+        },
+        {
+            "id": 5,
+            "name": "Valley Hospital Medical Center",
+            "address": "620 Shadow Ln, Las Vegas, NV 89106",
+            "type": "hospital",
+            "latitude": 36.16614838580505,
+            "longitude": -115.16687794182428
+        },
+        {
+            "id": 6,
+            "name": "Dignity Health Hospital",
+            "address": "4980 W Sahara Ave, Las Vegas, NV 89102",
+            "type": "hospital",
+            "latitude": 36.14813042259646,
+            "longitude": -115.20841999413199
+        },
+        {
+            "id": 7,
+            "name": "Elite Medical Center",
+            "address": "150 E Harmon Ave, Las Vegas, NV 89109",
+            "type": "hospital",
+            "latitude": 36.11249811363457,
+            "longitude": -115.16584797358524
+        }
+    ]
+}
