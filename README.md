@@ -2,8 +2,12 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2021-10-05 (Demystified: More Accessibility Features)
+A few more interesting accessibility features that are worth noting that your apps should support to make for a great user experience for those with disabilities.
+
+
 ##### 2021-05-12 (Demystified: Some Accessibility Features)
-A primer on just a few of the accessibility features available that your apps should support to make for a great user experience for those with disibilities.
+A primer on just a few of the accessibility features available that your apps should support to make for a great user experience for those with disabilities.
 
 ##### 2021-04-20 (Demystified: Storyboards)
 A primer on some new and not so new features of storyboards that can make you a lot more productive.
@@ -21,5 +25,5 @@ A primer on how to setup your app to support multiple languages, and how to extr
 A primer into the various methods and technologies available to store data for your app. Includes sample code for parsing JSON data, for using CoreData locally, and for using CoreData with CloudKit to sync to private database in iCloud.
 
 ##### 2020-01-16 (Demystified: Constraints and Size Classes)
-A primer into exactly what layout constraints and size classes are and how to user them effecively.a
+A primer into exactly what layout constraints and size classes are and how to user them effectively.
 
