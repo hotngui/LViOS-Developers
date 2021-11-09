@@ -2,6 +2,9 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2021-11-09 (Debugging 101: Xcode Tools)
+A very basic introduction to some of the tools Xcode provides to help debug apps.
+
 ##### 2021-10-05 (Demystified: More Accessibility Features)
 A few more interesting accessibility features that are worth noting that your apps should support to make for a great user experience for those with disabilities.
 
