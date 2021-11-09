@@ -12,10 +12,6 @@ class Demo2ViewController: UIViewController {
     var x: Int = 0
     var y: Int = 0
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Actions / Selectors
 
     @IBAction

@@ -15,12 +15,6 @@ class Demo1ViewController: UIViewController {
     //weak var delegate: Demo1Delegate? // You need to mark this as a "weak" reference, otherwise it creates memory leak
     var delegate: Demo1Delegate?
 
-    // MARK: - View Lifecycle
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Actions / Selectors
 
     @IBAction
