@@ -2,6 +2,9 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2021-12-07 (Top 10 Important Topics for iOS Developers in 2022)
+My take on what I think are the "topics" that developers should pay attention to next year. Even if you think you are familiar with a topic you should still allocate some time to improve your knownledge and skills.
+
 ##### 2021-11-09 (Debugging 101: Xcode Tools)
 A very basic introduction to some of the tools Xcode provides to help debug apps.
 
