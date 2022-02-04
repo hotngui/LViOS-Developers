@@ -2,6 +2,11 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2022-02-08 (Demystified: Codable)
+A primer on parsing JSON into Swift Objects
+
+My take on what I think are the "topics" that developers should pay attention to next year. Even if you think you are familiar with a topic you should still allocate some time to improve your knownledge and skills.
+
 ##### 2021-12-07 (Top 10 Important Topics for iOS Developers in 2022)
 My take on what I think are the "topics" that developers should pay attention to next year. Even if you think you are familiar with a topic you should still allocate some time to improve your knownledge and skills.
 
@@ -10,7 +15,6 @@ A very basic introduction to some of the tools Xcode provides to help debug apps
 
 ##### 2021-10-05 (Demystified: More Accessibility Features)
 A few more interesting accessibility features that are worth noting that your apps should support to make for a great user experience for those with disabilities.
-
 
 ##### 2021-05-12 (Demystified: Some Accessibility Features)
 A primer on just a few of the accessibility features available that your apps should support to make for a great user experience for those with disabilities.

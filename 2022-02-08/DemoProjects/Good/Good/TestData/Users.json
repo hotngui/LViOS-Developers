@@ -1,0 +1,58 @@
+[
+    {
+      "avatar" : "http:\/\/www.hotngui.com\/images\/logo.png",
+      "city" : "Santa Clara",
+      "firstName" : "Joey",
+      "classification" : {
+        "nerd" : {
+          "level" : 10
+        }
+      },
+      "birthday" : 665678694.41905499,
+      "streetAddress" : "902 Pomeroy Ave",
+      "zipCode" : 95051,
+      "lastName" : "Jarosz"
+    },
+    {
+      "avatar" : "http:\/\/www.hotngui.com\/images\/logo.png",
+      "city" : "Santa Clara",
+      "firstName" : "George",
+      "classification" : {
+        "nerd" : {
+          "level" : 10
+        }
+      },
+      "birthday" : 665678694.41905499,
+      "streetAddress" : "902 Pomeroy Ave",
+      "zipCode" : 95051,
+      "lastName" : "Rose"
+    },
+    {
+      "avatar" : "http:\/\/www.hotngui.com\/images\/logo.png",
+      "city" : "Santa Clara",
+      "firstName" : "Frank",
+      "classification" : {
+        "nerd" : {
+          "level" : 10
+        }
+      },
+      "birthday" : 665678694.41905499,
+      "streetAddress" : "902 Pomeroy Ave",
+      "zipCode" : 95051,
+      "lastName" : "Rose"
+    },
+    {
+      "avatar" : "http:\/\/www.hotngui.com\/images\/logo.png",
+      "city" : "Santa Clara",
+      "firstName" : "George",
+      "classification" : {
+        "nerd" : {
+          "level" : 10
+        }
+      },
+      "birthday" : 665678694.41905499,
+      "streetAddress" : "902 Pomeroy Ave",
+      "zipCode" : 95051,
+      "lastName" : "Jarosz"
+    }
+]
