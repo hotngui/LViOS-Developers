@@ -2,6 +2,8 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 
+##### 2022-04-17 (Reducing User Friction: Location Button)
+The start of a discussion regarding what user friction is, why its bad, and how to avoid it. This installment concentrates on the new LocationButton component supplied in UIKit and SwiftUI.
 
 ##### 2022-04-12 (So You Wrote Some Code, But Now What?)
 
