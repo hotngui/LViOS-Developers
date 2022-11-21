@@ -1,9 +1,11 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2022-11-22 (The littlest Watch apps)
+Some simple watchOS apps.
+
 ##### 2022-06-14 (WWDC 2022)
 Some of my thoughts regarding what I saw and did not see at this year's WWDC, as a means to start conversations.
-
 
 ##### 2022-05-17 (Reducing User Friction: Location Button)
 The start of a discussion regarding what user friction is, why its bad, and how to avoid it. This installment concentrates on the new LocationButton component supplied in UIKit and SwiftUI.
