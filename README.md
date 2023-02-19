@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2023-02-21 (Demystified: AppIntent Framework Shortcuts)
+A primer on the new AppIntent Framework and a simple example app shows a couple of shortcuts.
+
 ##### 2022-11-22 (The littlest Watch apps)
 Some simple watchOS apps.
 

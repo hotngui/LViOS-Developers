@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63BB4ECF-18F5-4BEA-9500-C5EE7D1153A5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D0F3CC02-E5CC-44AC-952A-3FBB5F141972"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "suggestedEntities()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC229A7C-124F-4124-9FA6-31ADF1A0818E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "entities(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6250E1B-8BD9-4F5B-B350-7596EE8092C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "perform()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7578B323-41A4-474E-9B1B-E2D89C5468D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "perform()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7578B323-41A4-474E-9B1B-E2D89C5468D0 - c7625019ff872e3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "7578B323-41A4-474E-9B1B-E2D89C5468D0 - 2c92091a36dbe63a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00DD1456-4271-4B68-8EF5-8700EB4940E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "perform()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00DD1456-4271-4B68-8EF5-8700EB4940E4 - c7625019ff872ef2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1164">
+               </Location>
+               <Location
+                  uuid = "00DD1456-4271-4B68-8EF5-8700EB4940E4 - fa914ec96cdec8e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "00DD1456-4271-4B68-8EF5-8700EB4940E4 - 2c92091a36dbe6f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "00DD1456-4271-4B68-8EF5-8700EB4940E4 - aade9a69763af5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MyTest.SimpleItemIntent.perform() async throws -&gt; some"
+                  moduleName = "MyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-02-21/SimpleAppShortcuts/SimpleAppShortcuts/Shortcuts/Simplest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "325481C3-F9B6-43B2-B0DB-6D2A538C066A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleAppShortcuts/Shortcuts/Simplest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "entities(matching:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
