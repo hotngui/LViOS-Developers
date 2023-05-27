@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2023-05-30 (Deep Dish Swift, A new Conference)
+A summary of the newest Swift language related conference.
+
 ##### 2023-03-28 (Primer: Finding and Fixing Memory Issues)
 A primer that shows some of the most common memory issues, how to find them, and a little about how to fix them.
 
