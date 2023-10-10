@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EEB7F26F-8834-4799-9539-0A2F4EC7B4ED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8691CC33-256C-4D08-BD1F-2A5B6D930DC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreDataCloud/Persistence.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "init(inMemory:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8691CC33-256C-4D08-BD1F-2A5B6D930DC5 - 3f373d11f34d44a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataCloud.PersistenceController.init(inMemory: Swift.Bool) -&gt; CoreDataCloud.PersistenceController"
+                  moduleName = "CoreDataCloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-10-10/CoreData_Cloud/CoreDataCloud/CoreDataCloud/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2240">
+               </Location>
+               <Location
+                  uuid = "8691CC33-256C-4D08-BD1F-2A5B6D930DC5 - 3f373d11f34d44a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreDataCloud.PersistenceController.init(inMemory: Swift.Bool) -&gt; CoreDataCloud.PersistenceController"
+                  moduleName = "CoreDataCloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2023-10-10/CoreData_Cloud/CoreDataCloud/CoreDataCloud/Persistence.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,6 +1,12 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2023-10-10 (CoreData vs SwiftData, and CloudKit too!)
+Some comparisons between the new SwiftData and CoreData; includes simple sample apps
+
+##### 2023-08-21 (King Privacy into Overdrive)
+A discussion of Apples latest attempts at preserving user privacy and security.
+
 ##### 2023-08-01 (The case for macOS)
 Charley made a very convincing case for why you should do native development when building macOS apps.
 
