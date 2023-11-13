@@ -1,10 +1,13 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2023-11-14 (Image Caching)
+A discussion on the merits of caching downloaded images and some comparisons of a few third party packages
+
 ##### 2023-10-10 (CoreData vs SwiftData, and CloudKit too!)
 Some comparisons between the new SwiftData and CoreData; includes simple sample apps
 
-##### 2023-08-21 (King Privacy into Overdrive)
+##### 2023-08-21 (Kicking Privacy into Overdrive)
 A discussion of Apples latest attempts at preserving user privacy and security.
 
 ##### 2023-08-01 (The case for macOS)
