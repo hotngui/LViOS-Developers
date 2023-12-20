@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2023-12-19 (Unleashing AI in iOS)
+A presentation about AI with a concentration on Generative AI, ChatGPT, Co-pilot and how it all applies to iOS and Mac usage and development.
+
 ##### 2023-11-14 (Image Caching)
 A discussion on the merits of caching downloaded images and some comparisons of a few third party packages
 
