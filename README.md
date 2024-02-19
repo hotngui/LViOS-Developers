@@ -1,7 +1,10 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
-##### 2024-01-16 (Let's build a GPT-powered iOS app! A sands On Session)
+##### 2024-02-20 (Primer: WeatherKit)
+A presentation and example code that shows how to utilized Apple's WeatherKit in an iOS app.
+
+##### 2024-01-16 (Let's build a GPT-powered iOS app! A hands On Session)
 This month's meetup is an interactive session where we all get a chance to build our own iOS app powered by GPT. The presentation provides an overview to the steps we take. The assets for this meetup include sample code accessible via Charley's GitHub repo at https://github.com/potatoarecool/iOS-AI-prototype
 
 ##### 2023-12-19 (Unleashing AI in iOS)
