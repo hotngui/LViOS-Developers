@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-03-12 (Primer: MusicKit)
+A presentation and example code that shows how to utilized Apple's MusicKit in an iOS app.
+
 ##### 2024-02-20 (Primer: WeatherKit)
 A presentation and example code that shows how to utilized Apple's WeatherKit in an iOS app.
 
