@@ -12,7 +12,7 @@ struct ContentView: View {
     @State var searchText = ""
     @State private var selection: String? = nil
     @State private var isAlbumSheetShowing = false
-    @State private var isSearchPresented = true
+    @State private var isSearchPresented = true                            // <--- NEW
     
     var body: some View {
         NavigationStack {
@@ -30,15 +30,17 @@ struct ContentView: View {
             }, content: {
                 if let selection {
                     DummyView(data: selection)
-                        .onAppear {
-                            isSearchPresented = false
-                        }
+                        .onAppear {                                        // <- NEW
+                            isSearchPresented = false                      // <- NEW
+                        }                                                  // <- NEW
                 }
             })
             .listStyle(PlainListStyle())
             .navigationTitle("Album Search")
         }
-        .searchable(text: $searchText, isPresented: $isSearchPresented, prompt: "Enter Artist Name")
+        .searchable(text: $searchText,                                     // <- Modified
+                    isPresented: $isSearchPresented,                       // <- Modified
+                    prompt: "Enter Artist Name")                           // <- Modified
         .onSubmit(of: .search) {
             doSearch(for: searchText)
         }
