@@ -1,6 +1,12 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-05-21 (Deep Dish Swift 2024)
+A quick review of the major sessions at the recent conference held in Chicago.
+
+##### 2024-04-23 (Troubleshooting)
+We spent the time helping individuals with development related issues in their own code.
+
 ##### 2024-03-12 (Primer: MusicKit)
 A presentation and example code that shows how to utilized Apple's MusicKit in an iOS app.
 
