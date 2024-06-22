@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-06-25 (WWWDC 2024, Let's Rehash It!)
+A quick review of the major sessions at the recent conference held in Chicago.
+
 ##### 2024-05-21 (Deep Dish Swift 2024)
 A quick review of the major sessions at the recent conference held in Chicago.
 
