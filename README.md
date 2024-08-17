@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-08-20 (Tools to help debugging memory and disk space issues)
+A reference to a couple of open source tools that can be useful in debugging memory and disk space issues.
+
 ##### 2024-06-25 (WWWDC 2024, Let's Rehash It!)
 A quick review of the major sessions at the recent conference held in Chicago.
 
