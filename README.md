@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-09-24 (Primer: Swift Testing)
+A primer to the new "Swift Testing" framework included in Xcode 16 used to replace XCTest unit testing
+
 ##### 2024-08-20 (Tools to help debugging memory and disk space issues)
 A reference to a couple of open source tools that can be useful in debugging memory and disk space issues.
 
