@@ -1,6 +1,15 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2024-12-17 (Large Data Meets Small Phone...)
+There are wrong and right ways to download large images and other file types to your mobile devices. By the way of example code, some of these are demonstrated.
+
+##### 2024-11-12 (MORE Show-n-Tell)
+Our co-host presented the designs and visions for her new app which aims to bring more love to the world. She also discussed her monitezation strategy and her journey looking for additional funding to help her get the app to market.
+
+##### 2024-10-22 (Show-n-Tell Time)
+One of our members showed us a new app he is working on and discussed some of the issues he's been having dealing with some bugs in MusicKit queues.
+
 ##### 2024-09-24 (Primer: Swift Testing)
 A primer to the new "Swift Testing" framework included in Xcode 16 used to replace XCTest unit testing
 
