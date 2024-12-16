@@ -93,23 +93,30 @@ extension FileHandler: URLSessionDownloadDelegate {
         try! fm.copyItem(at: location, to: newLocation)
         
         let attributes = try? fm.attributesOfItem(atPath: newLocation.path)
-        downloadSize = attributes?[.size] as? UInt64
+        
+        Task { @MainActor in
+            downloadSize = attributes?[.size] as? UInt64
+        }
     }
 
     func urlSession(_ session: URLSession, downloadTask: URLSessionDownloadTask, didWriteData bytesWritten: Int64, totalBytesWritten: Int64, totalBytesExpectedToWrite: Int64) {
-        downloadSize = UInt64(totalBytesWritten)
-        logger.info("didWriteData: \(bytesWritten), totalBytesWritten: \(totalBytesWritten), totalBytesExpectedToWrite: \(totalBytesExpectedToWrite)")
+        Task { @MainActor in
+            downloadSize = UInt64(totalBytesWritten)
+            logger.info("didWriteData: \(bytesWritten), totalBytesWritten: \(totalBytesWritten), totalBytesExpectedToWrite: \(totalBytesExpectedToWrite)")
+        }
     }
     
     func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
         if task === self.task {
-            self.error = error?.localizedDescription
-            self.isBusy = false
-            
-            if let error = error {
-                logger.error("Task failed with error: \(error)")
-            } else {
-                logger.info("Task completed successfully.")
+            Task { @MainActor in
+                self.error = error?.localizedDescription
+                self.isBusy = false
+                
+                if let error = error {
+                    logger.error("Task failed with error: \(error)")
+                } else {
+                    logger.info("Task completed successfully.")
+                }
             }
         } else {
             task.cancel()
