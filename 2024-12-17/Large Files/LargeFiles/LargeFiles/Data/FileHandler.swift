@@ -107,6 +107,8 @@ extension FileHandler: URLSessionDownloadDelegate {
     }
     
     func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+        logger.info("GOT HERE!")
+        
         if task === self.task {
             Task { @MainActor in
                 self.error = error?.localizedDescription
@@ -117,10 +119,22 @@ extension FileHandler: URLSessionDownloadDelegate {
                 } else {
                     logger.info("Task completed successfully.")
                 }
+                
+                if let fileName {
+                    Notifications.createTimeIntervalLocalNotification(title: "File Download", body: "The file, '\(fileName)', has been downloaded.", timeInterval: 2.0, identifier: "Testing")
+                }
             }
         } else {
             task.cancel()
             self.task = nil
+        }
+    }    
+    
+    func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+        logger.info("urlSessionDidFinishEvents")
+
+        if let fileName {
+            Notifications.createTimeIntervalLocalNotification(title: "File Download", body: "The file, '\(fileName)', has been downloaded.", timeInterval: 2.0, identifier: "Testing")
         }
     }
 }

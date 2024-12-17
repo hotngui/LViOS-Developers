@@ -15,6 +15,9 @@ struct ContentView: View {
                 UploadView()
             }
         }
+        .task {
+            Notifications.requestNotificationAuthorization()
+        }
     }
 }
 

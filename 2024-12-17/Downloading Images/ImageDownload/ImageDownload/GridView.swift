@@ -51,7 +51,7 @@ struct GridView: View {
 
 // MARK: - Custom Image
 
-struct LocalImageView: View {
+struct TestImageView: View {
     @State var mySize: CGSize = .zero
     var indx: Int
     
