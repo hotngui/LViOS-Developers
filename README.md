@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-01-14 (iPhone, iPad, no problem... Coding to support both user interfaces)
+Most apps can benefit from being available on both the iPhone and iPad. However, many developers mistakenly believe that supporting both platforms means twice the work. We'll show some examples of how the same basic code can be used to support both easily.
+
 ##### 2024-12-17 (Large Data Meets Small Phone...)
 There are wrong and right ways to download large images and other file types to your mobile devices. By the way of example code, some of these are demonstrated.
 
