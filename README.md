@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-02-25 (Solving Problems Together! - MV vs MVVM)
+A discussion about the pros and cons of various patterns with a concentration on MV and MVVM. Also an open mike for folks who need help with specific issues related to their apps.
+
 ##### 2025-01-14 (iPhone, iPad, no problem... Coding to support both user interfaces)
 Most apps can benefit from being available on both the iPhone and iPad. However, many developers mistakenly believe that supporting both platforms means twice the work. We'll show some examples of how the same basic code can be used to support both easily.
 
