@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-04-22 (Devs Helping Devs)
+Its essentially an open mic night, but there was a presentation on how to get starting with In-App Purchases and Subscriptions.
+
 ##### 2025-03-18 (Decoding and Mocking Data)
 We talked about a variety of topics including decoding JSON, how to mock data services, using Vapor as part of software development, and using Cursor AI as a software development tool.
 
