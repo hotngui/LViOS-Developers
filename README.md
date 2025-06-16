@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-06-17 (WWDC25)
+A general discussion about everyone's thoughts about what they saw and did not see from this year's virtual WWDC. Includes some of this host's opinions, experiences, and suggestions as for a playlist of session videos.
+
 ##### 2025-05-20 (Deep Dish Download & Group Project Discussion)
 The Deep Dish Swift sessions were live streamed on YouTube this year so there was no need for an in depth review; I however presented the list of the sessions I thought most useful and relevant to our meetup group. There were also discussions regarding the possibility of doing a group project.
 
