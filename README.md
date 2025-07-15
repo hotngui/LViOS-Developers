@@ -1,6 +1,10 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-07-15 (Debugging Crashes in iOS Applications)
+No one writes perfect software, so at some point you'll be staring at a stack trace wondering what could have possibly gone wrong. This month's discussions are about how to try and decipher the jibberish know as stack traces.
+
+
 ##### 2025-06-17 (WWDC25)
 A general discussion about everyone's thoughts about what they saw and did not see from this year's virtual WWDC. Includes some of this host's opinions, experiences, and suggestions as for a playlist of session videos.
 
