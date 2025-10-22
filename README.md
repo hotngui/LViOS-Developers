@@ -2,7 +2,7 @@
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
 ##### 2025-10-21 (Using the iOS Audio and Mini Players)
-A presentation by Nicholas on the topic of how to configure the NowPlaying Metadata so your audio player can be displayed on the lockscreen._
+A presentation by Nicholas on the topic of how to configure the NowPlaying Metadata so your audio player can be displayed on the lock screen._
 
 ##### 2025-09-09 (Getting push with our users)
 A presentation and discussions regarding the different "push" capabilities in iOS that allow us to communicate with our users - without requiring them to create accounts or give up any personal information. _FYI, this meetup was originally scheduled for 8/12/25 but had to be postponed._
