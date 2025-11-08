@@ -1,11 +1,14 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-11-11 (Hidden SwiftUI Gotcha's)
+A working session going through some example code that illustrate how your app might be doing more work than you think.
+
 ##### 2025-10-21 (Using the iOS Audio and Mini Players)
-A presentation by Nicholas on the topic of how to configure the NowPlaying Metadata so your audio player can be displayed on the lock screen._
+A presentation by Nicholas on the topic of how to configure the NowPlaying Metadata so your audio player can be displayed on the lock screen.
 
 ##### 2025-09-09 (Getting push with our users)
-A presentation and discussions regarding the different "push" capabilities in iOS that allow us to communicate with our users - without requiring them to create accounts or give up any personal information. _FYI, this meetup was originally scheduled for 8/12/25 but had to be postponed._
+A presentation and discussions regarding the different "push" capabilities in iOS that allow us to communicate with our users - without requiring them to create accounts or give up any personal information. _FYI, this meetup was originally scheduled for 8/12/25 but had to be postponed.
 
 ##### 2025-07-15 (Debugging Crashes in iOS Applications)
 No one writes perfect software, so at some point you'll be staring at a stack trace wondering what could have possibly gone wrong. This month's discussions are about how to try and decipher the gibberish know as stack traces.
