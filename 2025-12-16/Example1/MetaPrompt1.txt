@@ -1,0 +1,4 @@
+
+I want to create a SwiftUI app that allows the user to search for "cocktails" by name using the API "www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita" where "margarita is the search term which I want the user to be able to enter in a text field. The output returned should be displayed in a modal and include any images that are included. The app should retain a list of the user's searchs and display them on the screen. The user should be able to select one of these previous searches and initial a new search. Use the existing `Example` project to put the implementation.
+
+

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/run-prompt 001)",
+      "Bash(ls:*)",
+      "WebSearch",
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)"
+    ]
+  }
+}

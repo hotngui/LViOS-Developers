@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need access to speech recognition to allow you to search for US states using your voice.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to enable voice search for US state information.</string>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+
+Attempt #1 
+
+I want to create a SwiftUI app that allows the user to ask Apple's Foundations Models for information about any state of the United States of America. The query they entered should only support such requests and decline any others. When practical the result should include information such as the name of the State capital, the state bird, the state plant, and a map showing the state. This information should be based on a struct. Use the existing `Example2` project to put the implementation.
+
+
+
+Attempt #2
+
+Using the existing app in this folder, I want to create a SwiftUI app tht allows a user to ask for information about an of the states of the United States of America. I want the app to your Apple's "FoundationModels" to retrieve and generate the information. The output should include a map showing the state, along with information about the state capital, the state bird, and the state plant if those exist. The app should set up guardrails with the FoundationModels framework to limit their prompts to queries about the states.

@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2025-12-16 (AI Using Meta Prompting)
+A working session going through some example code that illustrate how your app might be doing more work than you think.
+
 ##### 2025-11-11 (Hidden SwiftUI Gotcha's)
 A working session going through some example code that illustrate how your app might be doing more work than you think.
 

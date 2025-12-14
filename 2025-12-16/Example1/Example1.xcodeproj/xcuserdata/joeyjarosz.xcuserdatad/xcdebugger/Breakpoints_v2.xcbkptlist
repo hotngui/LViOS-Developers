@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D0630384-48FC-4336-8E68-711FFAB87FFA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81A8FB74-8523-43E7-847F-CE40AED2FC98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Example1/Services/CocktailService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "searchCocktails(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "81A8FB74-8523-43E7-847F-CE40AED2FC98 - c9b96c300e5fedb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Example1.CocktailService.searchCocktails(by: Swift.String) async throws -&gt; Swift.Array&lt;Example1.Cocktail&gt;"
+                  moduleName = "Example1.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2025-12-16/Example1/Example1/Services/CocktailService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74">
+               </Location>
+               <Location
+                  uuid = "81A8FB74-8523-43E7-847F-CE40AED2FC98 - c9b96c300e5fedb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Example1.CocktailService.searchCocktails(by: Swift.String) async throws -&gt; Swift.Array&lt;Example1.Cocktail&gt;"
+                  moduleName = "Example1.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joeyjarosz/LViOS-Developers/2025-12-16/Example1/Example1/Services/CocktailService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
