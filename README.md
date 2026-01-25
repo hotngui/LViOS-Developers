@@ -1,8 +1,11 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2026-01-27 (Exploring the use of Apple's Foundation Model in your own apps)
+A presentation, demo, code walk-through of how you can utilize Apple's on-device LLM in your apps.
+
 ##### 2025-12-16 (AI Using Meta Prompting)
-A working session going through some example code that illustrate how your app might be doing more work than you think.
+A presentation and demo of how to use Claude Code to do "meta prompting" which results in a better result when writing code.
 
 ##### 2025-11-11 (Hidden SwiftUI Gotcha's)
 A working session going through some example code that illustrate how your app might be doing more work than you think.
