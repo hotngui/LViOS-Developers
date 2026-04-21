@@ -1,6 +1,9 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2026-04-21 (Show-n-Tell: How We Use AI In Our Apps!)
+A time for all to share how they are utilizing or not-utilizing AI as it relates to their app development process
+
 ##### 2026-01-27 (Exploring the use of Apple's Foundation Model in your own apps)
 A presentation, demo, code walk-through of how you can utilize Apple's on-device LLM in your apps.
 
@@ -13,7 +16,7 @@ A working session going through some example code that illustrate how your app m
 ##### 2025-10-21 (Using the iOS Audio and Mini Players)
 A presentation by Nicholas on the topic of how to configure the NowPlaying Metadata so your audio player can be displayed on the lock screen.
 
-##### 2025-09-09 (Getting push with our users)
+##### 2025-09-09 (Getting pushy with our users)
 A presentation and discussions regarding the different "push" capabilities in iOS that allow us to communicate with our users - without requiring them to create accounts or give up any personal information. _FYI, this meetup was originally scheduled for 8/12/25 but had to be postponed.
 
 ##### 2025-07-15 (Debugging Crashes in iOS Applications)
@@ -27,7 +30,7 @@ The Deep Dish Swift sessions were live streamed on YouTube this year so there wa
 
 
 ##### 2025-04-22 (Devs Helping Devs)
-Its essentially an open mic night, but there was a presentation on how to get starting with In-App Purchases and Subscriptions.
+Its essentially an open mic night, but there was a presentation on how to get started with In-App Purchases and Subscriptions.
 
 ##### 2025-03-18 (Decoding and Mocking Data)
 We talked about a variety of topics including decoding JSON, how to mock data services, using Vapor as part of software development, and using Cursor AI as a software development tool.
