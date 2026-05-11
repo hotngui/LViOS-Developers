@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "402AC2C7-DED1-45E0-A8E6-60929C2E2F74",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MetalExample.xcodeproj",
+      "identifier" : "AA000000000000000000A002",
+      "name" : "MetalExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MetalExample.xcodeproj",
+        "identifier" : "AA000000000000000000A003",
+        "name" : "MetalExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

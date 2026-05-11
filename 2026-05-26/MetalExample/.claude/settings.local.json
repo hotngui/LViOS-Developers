@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -list -project MetalExample.xcodeproj)",
+      "Bash(xcodebuild -project MetalExample.xcodeproj -scheme MetalExample -destination 'generic/platform=iOS Simulator' -configuration Debug build)",
+      "Bash(xcodebuild -project MetalExample.xcodeproj -scheme MetalExample -destination 'generic/platform=iOS Simulator' -configuration Debug build-for-testing)",
+      "mcp__xcode__XcodeListWindows",
+      "mcp__xcode__GetBuildLog",
+      "mcp__xcode__GetTestList",
+      "mcp__xcode__RunSomeTests",
+      "Bash(xcodebuild -project /Users/joeyjarosz/Experiments/MetalExample/MetalExample.xcodeproj -scheme MetalExample -destination 'platform=iOS Simulator,name=iPhone 16' build-for-testing)",
+      "Bash(xcodebuild -project /Users/joeyjarosz/Experiments/MetalExample/MetalExample.xcodeproj -scheme MetalExample -destination 'id=58761AEA-31BA-49EF-A8C2-40420C6A9176' test)",
+      "Bash(xcodebuild -project /Users/joeyjarosz/Experiments/MetalExample/MetalExample.xcodeproj -scheme MetalExample -destination 'id=58761AEA-31BA-49EF-A8C2-40420C6A9176' test -only-testing:MetalExampleTests/ComputeFilterEngineTests/grayscaleSucceeds -only-testing:MetalExampleTests/ComputeFilterEngineTests/boxBlurSucceeds -only-testing:MetalExampleTests/ComputeFilterEngineTests/sobelSucceeds)",
+      "Bash(xcrun simctl *)",
+      "mcp__xcode__BuildProject"
+    ]
+  }
+}

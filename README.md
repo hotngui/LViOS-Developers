@@ -1,7 +1,12 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
-##### 2026-04-21 (Show-n-Tell: How We Use AI In Our Apps!)
+##### 2026-05-26 (Metal vs SpriteKit, or more AI talk)
+
+We discussing the differenes between Metal and SpriteKit using two AI genereated example apps
+
+**2026-04-21 (Show-n-Tell: How We Use AI In Our Apps!)**
+
 A time for all to share how they are utilizing or not-utilizing AI as it relates to their app development process
 
 ##### 2026-01-27 (Exploring the use of Apple's Foundation Model in your own apps)
