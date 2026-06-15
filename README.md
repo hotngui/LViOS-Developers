@@ -1,6 +1,10 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2026-06-16 (Post WWDC Discussion)
+
+We talk about what we liked and disliked about what we heard from the WWDC Keynotes and sessions. What we were surprised about hearing and what we did not hear announced.
+
 ##### 2026-05-26 (Metal vs SpriteKit, or more AI talk)
 
 We discussing the differenes between Metal and SpriteKit using two AI genereated example apps
