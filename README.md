@@ -1,6 +1,10 @@
 # LViOS-Developers
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
+##### 2026-08-25 (What's New in SwiftUI?)
+
+A presentation and discussion of new features being added to SwiftUI in the upcoming release..
+
 ##### 2026-06-16 (Post WWDC Discussion)
 
 We talk about what we liked and disliked about what we heard from the WWDC Keynotes and sessions. What we were surprised about hearing and what we did not hear announced.
