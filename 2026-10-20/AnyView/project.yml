@@ -1,0 +1,80 @@
+name: AnyView
+options:
+  bundleIdPrefix: com.hotngui
+  deploymentTarget:
+    iOS: "27.0"
+  xcodeVersion: "27.1"
+  createIntermediateGroups: true
+packages:
+  DemoKit:
+    path: DemoKit
+settings:
+  base:
+    DEVELOPMENT_TEAM: 7689FTK2TN
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    SWIFT_APPROACHABLE_CONCURRENCY: YES
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY: YES
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+    TARGETED_DEVICE_FAMILY: "1"
+targetTemplates:
+  DemoApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: ${target_name}
+        type: syncedFolder
+    dependencies:
+      - package: DemoKit
+    scheme:
+      # Pre-listed (disabled) in every scheme's Run, Test, and Profile actions, so a capture is one checkbox away.
+      commandLineArguments:
+        "-intensity heavy": false
+        "-container list": false
+        "-liveUpdates off": false
+        "-LogForEachSlowPath YES": false
+targets:
+  ErasedViews:
+    templates: [DemoApp]
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Erased
+  BoxedViews:
+    templates: [DemoApp]
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Boxed
+  NestedViews:
+    templates: [DemoApp]
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Nested
+  WrappedViews:
+    templates: [DemoApp]
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Wrapped
+  ConcreteViews:
+    templates: [DemoApp]
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Concrete
+  EagerViews:
+    # Spelled out rather than built from DemoApp: that template's launch arguments don't apply to this app.
+    type: application
+    platform: iOS
+    sources:
+      - path: EagerViews
+        type: syncedFolder
+    dependencies:
+      - package: DemoKit
+    settings:
+      base:
+        INFOPLIST_KEY_CFBundleDisplayName: Eager
+    scheme:
+      commandLineArguments:
+        "-cards 300": false

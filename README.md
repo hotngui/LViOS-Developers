@@ -1,7 +1,12 @@
 # LViOS-Developers
+
 Presentations and Examples from the Las Vegas iOS Developer Meetups
 
-##### 2026-09-22 (TBD)
+##### 2026-10-20 (SwiftUI Performance Gotchas)
+
+A presentation, example code, and discussion that show some easily created performance problems when creating SwiftUI views. In simple views on newer devices you might not see the performance problems but when you start throwing real data things get bad fast.
+
+##### 2026-09-22 (Persistent Image Caching w/AsyncImage)
 
 A presentation and discussion of how to use the updated AsyncImage API to support persistent caching of images. Migrated an old Kingfisher based demo we did in 2023 using Claude to demonstrate the new API.
 
